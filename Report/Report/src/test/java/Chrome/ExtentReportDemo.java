@@ -40,9 +40,9 @@ public class ExtentReportDemo {
 
         logger2.log(Status.FAIL, "Title verified");
 
-        logger2.fail("Failed because of some issues", MediaEntityBuilder.createScreenCaptureFromPath("/Users/JOOHYUN/Pictures/join-pd-48.png").build());
+        logger2.fail("Failed because of some issues", MediaEntityBuilder.createScreenCaptureFromPath("../Screenshot/join-pd-48.png").build());
 
-        logger2.pass("Failed because of some issues", MediaEntityBuilder.createScreenCaptureFromPath("/Users/JOOHYUN/Pictures/join-pd-48.png").build());
+        logger2.pass("Failed because of some issues", MediaEntityBuilder.createScreenCaptureFromPath("../Screenshot/join-pd-48.png").build());
 
         // This will add another test in report
         extent.flush();

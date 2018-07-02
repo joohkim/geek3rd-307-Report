@@ -47,7 +47,7 @@ public class ExtentReportDemo2
         driver=new ChromeDriver();
         driver.get("https://mobile.gmarket.co.kr/SignUp");
         System.out.println("title is "+driver.getTitle());
-        Assert.assertTrue(driver.getTitle().contains("Mukesh"));
+        Assert.assertTrue(driver.getTitle().contains("joohkim"));
     }
 
     // This will run after testcase and it will capture screenshot and add in report
